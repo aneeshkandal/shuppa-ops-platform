@@ -1,0 +1,45 @@
+{
+  "feature_names": [
+    "supplier_on_time_rate",
+    "order_quantity",
+    "lead_time_days",
+    "warehouse_utilization_pct",
+    "order_cost"
+  ],
+  "means": [
+    0.79725,
+    260.2426,
+    9.52305,
+    49.97370017534389,
+    33586.8816575
+  ],
+  "stds": [
+    0.01704036275883463,
+    138.25734788878313,
+    4.594732712302208,
+    0.036482677968715314,
+    28016.928447795035
+  ],
+  "intercept": -1.3731245837859418,
+  "coefficients": [
+    -0.10626328405477195,
+    0.0046953285651637625,
+    -0.013412245209417079,
+    -0.02245873163188345,
+    0.033520392600388485
+  ],
+  "train_accuracy": 0.7973,
+  "train_auc": 0.5322,
+  "n_training_rows": 20000,
+  "trained_at": "2026-09-23T03:29:30.978411Z",
+  "supplier_on_time_rate_overall": 0.797183175074154,
+  "warehouse_utilization_pct_overall": 49.96159273254733,
+  "order_quantity_mean": 260.2426,
+  "order_quantity_std": 138.260804452102,
+  "lead_time_days_mean": 9.52305,
+  "risk_thresholds": {
+    "low_max": 0.2016762150877508,
+    "medium_max": 0.21872509475142393
+  },
+  "base_rate_late": 0.20275
+}
